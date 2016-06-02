@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Najdi Cimer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Отвори мени</string>
+    <string name="navigation_drawer_close">Затвори мени</string>
+
+    <string name="cl_title">Наслов&#8230;</string>
+    <string name="cl_content">Содржина&#8230;</string>
+    <string name="cl_upload_images">Прикачи слики&#8230;</string>
+    <string name="cl_create_listing">Испрати оглас!</string>
+    <string name="clm_search_location">Локација:</string>
+    <string name="clm_search">Најди!</string>
+    <string name="cl_map">Најди на мапа</string>
+    <string name="alg_search_hint">Најди локација</string>
+    <string name="alg_send_location">Одбери локација</string>
+
+</resources>

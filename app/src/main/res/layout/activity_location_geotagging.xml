@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="finki.ukim.mk.najdicimer.LocationGeotaggingActivity">
+
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/alg_enter_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/alg_search_hint"
+        android:singleLine="true" />
+
+    <requestFocus />
+
+    <Button
+        android:id="@+id/alg_search"
+        android:layout_width="39dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:paddingRight="15dp" />
+
+    <fragment
+        android:id="@+id/alg_map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/alg_search">
+
+        <Button
+            android:id="@+id/alg_send_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/alg_send_location" />
+    </fragment>
+</RelativeLayout>
